@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tipcalcy.css">
+
+</head>
+<div class="container">
+    <h1>Tip Calculator</h1>
+
+    <div  class="form-inline box">
+    <lable>Bill Amount :</lable>
+    <input type="number" id="billamount">
+
+    <lable>Tip Percentage :</lable>
+    <input type="number" id="tippercentage"><br>
+   
+    <lable>Number of person sharing bill ?:</lable>
+    <input type="number" id="person"><br>
+
+    <lable>tip amount</lable>
+    <input type="number" id="tipamount" disabled><br>
+
+    <button id="btn" onclick="tipcalcy()">Calculate</button>
+
+<div >
+    <h3>Tip Amount per person :</h3>
+    <h2 id="totalamount"> </h2></div>
+  
+   </div>
+   
+    </div>
+    <script src="tipcalcy.js"></script>
+</body>
+
+</html>
